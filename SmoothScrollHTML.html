@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smooth Scrolling and Active Menu Link Highlighting</title>
+<style>
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  nav {
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  nav a.active {
+    background-color: #555;
+  }
+  section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="menu">
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+    <a href="#section4">Section 4</a>
+  </nav>
+</header>
+
+<main>
+  <section id="section1">
+    <h2>Section 1</h2>
+    <p>Content of section 1.</p>
+  </section>
+
+  <section id="section2">
+    <h2>Section 2</h2>
+    <p>Content of section 2.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Section 3</h2>
+    <p>Content of section 3.</p>
+  </section>
+
+  <section id="section4">
+    <h2>Section 4</h2>
+    <p>Content of section 4.</p>
+  </section>
+</main>
+
+<!-- JavaScript file -->
+<script src="smoothscroll.js"></script>
+
+</body>
+</html>
